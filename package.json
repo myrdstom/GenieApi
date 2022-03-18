@@ -1,0 +1,16 @@
+{
+  "name": "mygenieapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "julia --project=. -i -e \"import MyGenieApi; task = MyGenieApi.serve(async = true)\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
